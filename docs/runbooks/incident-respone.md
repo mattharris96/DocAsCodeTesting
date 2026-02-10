@@ -6,9 +6,11 @@
 
 ## Sample diagram in Mermaid
 
+```mermaid
 flowchart LR
     A[Author writes Markdown] --> B[GitHub Repository]
     B --> C[GitHub Actions CI]
     C --> D[MkDocs Build]
     D --> E[gh-pages branch]
     E --> F[GitHub Pages Site]
+```

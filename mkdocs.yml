@@ -20,9 +20,9 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Standards:
-      - Secure-by-Design: standards/secure-by-design.md
+      - Standard Test: standards/secure-by-design.md
   - Runbooks:
-      - Incident Response: runbooks/mermaid-test.md
+      - Mermaid Test: runbooks/mermaid-test.md
 
 
 markdown_extensions:

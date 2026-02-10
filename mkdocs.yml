@@ -1,1 +1,49 @@
+site_name: "Documentation"
+site_description: "Docs-as-code site published with GitHub Pages"
+site_url: "https://<org-or-user>.github.io/<repo>/"
 
+repo_name: "<org-or-user>/<repo>"
+repo_url: "https://github.com/<org-or-user>/<repo>"
+edit_uri: "edit/main/docs/"
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Standards:
+      - Secure-by-Design: standards/secure-by-design.md
+  - Runbooks:
+      - Incident Response: runbooks/incident-response.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search

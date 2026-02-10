@@ -1,5 +1,5 @@
-site_name: "Documentation"
-site_description: "Docs-as-code site published with GitHub Pages"
+site_name: "Documentation As Code Testing Site"
+site_description: "Docs-as-code site published with GitHub Pages, for testing"
 theme:
   name: material
   features:

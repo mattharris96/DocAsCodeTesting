@@ -22,7 +22,7 @@ nav:
   - Standards:
       - Secure-by-Design: standards/secure-by-design.md
   - Runbooks:
-      - Incident Response: DocAsCodeTesting/runbooks/incident-respone.md
+      - Incident Response: runbooks/incident-respone.md
 
 markdown_extensions:
   - admonition
